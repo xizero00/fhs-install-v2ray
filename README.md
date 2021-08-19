@@ -37,6 +37,8 @@ installed: /etc/systemd/system/v2ray@.service
 ```
 // 安裝執行檔和 .dat 資料檔
 # curl -L https://raw.githubusercontent.com/xizero00/fhs-install-v2ray/master/install-release.sh | sudo bash 
+```
+```
 # bash <(curl -L https://raw.githubusercontent.com/xizero00/fhs-install-v2ray/master/install-release.sh)
 ```
 
