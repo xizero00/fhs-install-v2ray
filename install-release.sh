@@ -522,7 +522,7 @@ main() {
   [[ "$REMOVE" -eq '1' ]] && remove_v2ray
 
   # Two very important variables
-  TMP_DIRECTORY="$(mktemp -d)"
+  # TMP_DIRECTORY="$(mktemp -d)"
   TMP_DIRECTORY="$(PWD)"
   ZIP_FILE="${TMP_DIRECTORY}/v2ray-linux-$MACHINE.zip"
 
