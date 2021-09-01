@@ -523,7 +523,7 @@ main() {
 
   # Two very important variables
   # TMP_DIRECTORY="$(mktemp -d)"
-  TMP_DIRECTORY="$(PWD)"
+  TMP_DIRECTORY="$(pwd)"
   ZIP_FILE="${TMP_DIRECTORY}/v2ray-linux-$MACHINE.zip"
 
   # Install V2Ray from a local file, but still need to make sure the network is available
